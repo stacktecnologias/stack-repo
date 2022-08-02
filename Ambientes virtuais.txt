@@ -1,0 +1,20 @@
+#Ver lista 
+conda info --envs
+conda env list
+
+#Criando ambiente virtual
+conda create --name py3-TF2.0
+
+#Ativando Ambiente virtual
+conda activate py3-TF2.0
+
+#Criando ambiente virtual na maquina local
+python -m venv "Nome"
+
+#Ler bloco de notas com as bibliotecas
+pip(ou conda) install -r requirements.txt --no-index
+
+
+---------------------------------------------
+
+
