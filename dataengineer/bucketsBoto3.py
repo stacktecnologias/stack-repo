@@ -7,8 +7,8 @@ from botocore.exceptions import ClientError
 
 client = boto3.client(service_name='s3', 
 region_name='us-east-1', 
-aws_access_key_id='AKIAULYYTA5WDPBNZMOV', 
-aws_secret_access_key='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'
+aws_access_key_id='CHAVE_DO_USUARIO', 
+aws_secret_access_key='CHAVE_DO_USUARIO'
 )
 
 s3_client = boto3.client('s3')
